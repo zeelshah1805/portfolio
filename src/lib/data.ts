@@ -1,14 +1,20 @@
 export const profile = {
   name: "Zeel Shah",
-  title: "AI/ML Engineer | LLM Systems | MLOps | Backend Developer",
-  tagline: "Building intelligent systems that transform data into decisions.",
+  title: "AI Engineer | LLM & GenAI Systems | RAG · Agentic Workflows | Backend",
+  tagline: "I build production AI systems — not demos, not MVPs that never ship.",
+  location: "Ahmedabad, Gujarat, India",
   roles: [
     "AI Engineer",
-    "ML Developer",
     "LLM Systems Builder",
+    "RAG & Agentic Workflows",
+    "NLP Automation Engineer",
     "Backend Engineer",
-    "MLOps Enthusiast",
   ],
+  education: {
+    degree: "B.Tech, Information & Communication Technology",
+    school: "Pandit Deendayal Energy University (PDEU)",
+    period: "2021 — 2025",
+  },
   socials: {
     github: "https://github.com/zeelshah1805",
     linkedin: "https://linkedin.com/in/zeel-shah-k5",
@@ -25,16 +31,16 @@ export const stats = [
 ];
 
 export const aboutSkills = [
-  "AI/ML Developer",
-  "Python Developer",
-  "FastAPI",
-  "LLM Systems",
-  "Model Training",
-  "MLOps",
-  "Data Engineering",
+  "LLM & GenAI Systems",
+  "RAG Pipelines",
+  "Agentic Workflows",
+  "NLP Automation",
+  "Model Fine-tuning (QLoRA)",
+  "Backend Engineering",
+  "Python Development",
 ];
 
-export type SkillCategory = "AI/ML" | "Backend" | "MLOps" | "Frontend";
+export type SkillCategory = "AI / LLM" | "Backend" | "GenAI Tooling" | "Frontend";
 
 export const techStack: {
   category: SkillCategory;
@@ -42,48 +48,53 @@ export const techStack: {
   skills: { name: string; level: number }[];
 }[] = [
   {
-    category: "AI/ML",
+    category: "AI / LLM",
     color: "#00D9FF",
     skills: [
       { name: "Python", level: 95 },
-      { name: "PyTorch", level: 90 },
-      { name: "TensorFlow", level: 82 },
-      { name: "Scikit-Learn", level: 88 },
-      { name: "Transformers", level: 90 },
-      { name: "LangChain", level: 85 },
-      { name: "OpenCV", level: 80 },
+      { name: "LLM Integration", level: 92 },
+      { name: "RAG", level: 90 },
+      { name: "NLP", level: 88 },
+      { name: "LangChain", level: 88 },
+      { name: "LangGraph", level: 84 },
+      { name: "Transformers", level: 85 },
+      { name: "PyTorch", level: 80 },
+      { name: "Scikit-Learn", level: 82 },
     ],
   },
   {
     category: "Backend",
     color: "#00FFAA",
     skills: [
-      { name: "FastAPI", level: 92 },
-      { name: "Django", level: 80 },
-      { name: "Node.js", level: 78 },
-      { name: "PostgreSQL", level: 85 },
-      { name: "Redis", level: 80 },
+      { name: "FastAPI", level: 90 },
+      { name: "REST APIs", level: 90 },
+      { name: "WebSockets", level: 82 },
+      { name: "Node.js", level: 80 },
+      { name: "Express", level: 78 },
+      { name: "SQL", level: 85 },
+      { name: "MongoDB", level: 80 },
     ],
   },
   {
-    category: "MLOps",
+    category: "GenAI Tooling",
     color: "#8B5CF6",
     skills: [
-      { name: "Docker", level: 88 },
-      { name: "Kubernetes", level: 75 },
-      { name: "MLflow", level: 82 },
-      { name: "Airflow", level: 78 },
-      { name: "AWS", level: 80 },
-      { name: "GCP", level: 76 },
+      { name: "Groq / LLM APIs", level: 88 },
+      { name: "FAISS", level: 85 },
+      { name: "RAGAS", level: 82 },
+      { name: "Streamlit", level: 88 },
+      { name: "Docker", level: 80 },
+      { name: "Prometheus", level: 76 },
+      { name: "Git", level: 90 },
     ],
   },
   {
     category: "Frontend",
     color: "#00D9FF",
     skills: [
-      { name: "React", level: 85 },
-      { name: "Next.js", level: 84 },
-      { name: "TypeScript", level: 82 },
+      { name: "React", level: 82 },
+      { name: "Next.js", level: 80 },
+      { name: "TypeScript", level: 80 },
     ],
   },
 ];
