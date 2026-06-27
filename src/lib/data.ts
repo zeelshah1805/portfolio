@@ -143,7 +143,7 @@ export const projects: {
     desc: "Production RAG that beats naive retrieval and proves it with a RAGAS ablation. Hybrid dense + BM25 retrieval fused with RRF, multi-hop query decomposition, cross-encoder reranking, and validated citations — lifting context recall from 0.90 to 1.00 across the eval set.",
     stack: ["FAISS", "BM25", "Cross-Encoder", "RAGAS", "Groq"],
     github: "https://github.com/zeelshah1805/advanced-rag-pipeline",
-    demo: "https://huggingface.co/spaces/zeelshah1805/advanced-rag-pipeline",
+    demo: "https://huggingface.co/spaces/zeelshah5/advanced-rag-pipeline",
     gradient: "from-cyan-500/30 to-blue-600/20",
   },
   {
