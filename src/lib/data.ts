@@ -165,12 +165,12 @@ export const projects: {
     gradient: "from-violet-500/30 to-purple-600/20",
   },
   {
-    title: "Recruitment Automation Engine",
+    title: "EM Simulator",
     category: "Backend",
-    desc: "Production agentic workflow shipped at SixSigma: email-triggered CV ingestion, NLP-based candidate ranking, and automated interview scheduling — end-to-end from inbox to calendar.",
-    stack: ["Python", "LLM", "NLP", "REST APIs", "SQL"],
-    github: "https://github.com/zeelshah1805",
-    demo: "#",
+    desc: "Final-year B.Tech major project: a full-stack drag-and-drop electromagnetic simulator. Users assemble configurations on an interactive canvas while a Node/Express + MongoDB backend (JWT auth) computes, persists, and exports results — with live Chart.js visualizations of field behavior.",
+    stack: ["React", "TypeScript", "Node.js", "Express", "MongoDB"],
+    github: "https://github.com/zeelshah1805/EM-Simulator",
+    demo: "",
     gradient: "from-emerald-500/30 to-teal-600/20",
   },
 ];
