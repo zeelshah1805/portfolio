@@ -134,7 +134,7 @@ export const projects: {
     desc: "Orchestrator–worker research assistant: a lead agent decomposes a question, spawns 3–5 worker agents that search the web in parallel, and a synthesizer returns a cited, synthesized report. Includes a streaming UI and an eval harness to prove v2 beats v1 — built entirely on free, open-source tooling.",
     stack: ["LangGraph", "LangChain", "Groq", "Gemini", "Streamlit"],
     github: "https://github.com/zeelshah1805/Multi-Agent-Research-System",
-    demo: "",
+    demo: "https://multi-agent-research-system-dev.streamlit.app/",
     gradient: "from-indigo-500/30 to-violet-600/20",
   },
   {
