@@ -80,22 +80,32 @@ function TiltCard({ project }: { project: (typeof projects)[number] }) {
         </div>
 
         <div className="mt-6 flex gap-4 text-sm">
-          <a
-            href={project.github}
-            target="_blank"
-            rel="noreferrer"
-            data-cursor="button"
-            className="flex items-center gap-1.5 text-gray-300 transition-colors hover:text-primary"
-          >
-            <GithubIcon /> GitHub
-          </a>
-          <a
-            href={project.demo}
-            data-cursor="button"
-            className="flex items-center gap-1.5 text-gray-300 transition-colors hover:text-accent"
-          >
-            <LinkIcon /> Live Demo
-          </a>
+          {project.github ? (
+            <a
+              href={project.github}
+              target="_blank"
+              rel="noreferrer"
+              data-cursor="button"
+              className="flex items-center gap-1.5 text-gray-300 transition-colors hover:text-primary"
+            >
+              <GithubIcon /> GitHub
+            </a>
+          ) : (
+            <span className="flex items-center gap-1.5 text-gray-600">
+              <GithubIcon /> Private
+            </span>
+          )}
+          {project.demo && (
+            <a
+              href={project.demo}
+              target="_blank"
+              rel="noreferrer"
+              data-cursor="button"
+              className="flex items-center gap-1.5 text-gray-300 transition-colors hover:text-accent"
+            >
+              <LinkIcon /> Live Demo
+            </a>
+          )}
         </div>
       </motion.article>
     </motion.div>
