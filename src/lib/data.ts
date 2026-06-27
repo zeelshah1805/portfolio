@@ -1,7 +1,7 @@
 export const profile = {
   name: "Zeel Shah",
   title: "AI Engineer | LLM & GenAI Systems | RAG · Agentic Workflows | Backend",
-  tagline: "I build production AI systems — not demos, not MVPs that never ship.",
+  tagline: "Building intelligent systems that transform data into decisions.",
   location: "Ahmedabad, Gujarat, India",
   roles: [
     "AI Engineer",
